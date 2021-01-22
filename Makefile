@@ -7,17 +7,17 @@ update:
 
 build:
 	$(update)
-	docker build -t bigboss-oualid/php-apache:8.0 -t bigboss-oualid/php-apache:latest 8.0
-	docker build -t bigboss-oualid/php-apache:8.0-symfony 8.0-symfony
-	docker build -t bigboss-oualid/php-apache:7.4 7.4
-	docker build -t bigboss-oualid/php-apache:7.4-symfony 7.4-symfony
-	docker build -t bigboss-oualid/php-apache:7.3 7.3
-	docker build -t bigboss-oualid/php-apache:7.3-symfony 7.3-symfony
-	docker build -t bigboss-oualid/php-apache:7.2 7.2
-	docker build -t bigboss-oualid/php-apache:7.2-symfony 7.2-symfony
-	docker build -t bigboss-oualid/php-apache:7.1 7.1
-	docker build -t bigboss-oualid/php-apache:7.1-symfony 7.1-symfony
-	docker build -t bigboss-oualid/php-apache:5.6 5.6
+	docker build -t bigbosss/symfony-docker-ci:8.0 -t bigbosss/symfony-docker-ci:latest 8.0
+	docker build -t bigbosss/symfony-docker-ci:8.0-symfony 8.0-symfony
+	docker build -t bigbosss/symfony-docker-ci:7.4 7.4
+	docker build -t bigbosss/symfony-docker-ci:7.4-symfony 7.4-symfony
+	docker build -t bigbosss/symfony-docker-ci:7.3 7.3
+	docker build -t bigbosss/symfony-docker-ci:7.3-symfony 7.3-symfony
+	docker build -t bigbosss/symfony-docker-ci:7.2 7.2
+	docker build -t bigbosss/symfony-docker-ci:7.2-symfony 7.2-symfony
+	docker build -t bigbosss/symfony-docker-ci:7.1 7.1
+	docker build -t bigbosss/symfony-docker-ci:7.1-symfony 7.1-symfony
+	docker build -t bigbosss/symfony-docker-ci:5.6 5.6
 
 publish:
-	docker push bigboss-oualid/php-apache
+	docker push bigbosss/symfony-docker-ci
